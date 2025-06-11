@@ -40,7 +40,8 @@ img {
 }
 
 .container {
-  width: 1158px;
+  max-width: 320px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -249,10 +250,6 @@ letter-spacing: 0.02em;
 
 
 
-
-
-
-
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -281,6 +278,8 @@ font-size: 16px;
 margin-bottom: 8px;
 
 }
+
+
 
 .feat-section {
   padding-top: 120px;
