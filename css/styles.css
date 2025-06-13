@@ -948,11 +948,12 @@ fill: #2e2f42;
 
 
                  /* 3 section */
-  .container {
+  .container,.main-business {
      max-width: 736px;
   height: 736px;
   padding-left: 16px;
-  padding-right: 16px;}
+  padding-right: 16px;
+   }
  
 .main-business {
   padding-top: 96px;
@@ -981,6 +982,9 @@ width: calc((100% - 24px) / 2);
 
 
                  /* 3 section */
+.container, .main-business {
+  margin: 0 auto;
+}
 
   .main-business {
   padding: 120px 0;}
