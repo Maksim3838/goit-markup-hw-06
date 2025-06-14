@@ -42,8 +42,8 @@ img {
 .container {
   max-width: 320px;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
   align-items: baseline;
 }
@@ -246,7 +246,7 @@ padding-right:16px;
 .features-list {
   /* gap: 24px; */
   flex-wrap: wrap;
-  /* display: flex; */
+  display: flex;
   gap: 72px;
 }
 
@@ -925,8 +925,26 @@ fill: #2e2f42;
   background-color: #404bbf;
 }
 
-@media screen (max-width:) {
-  
+@media screen (min-width:768px) {
+  .container {
+    max-width:768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+.main-business {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.features-item {
+  width: calc((100% - 24px) / 2);
+
+}
+.features-list {
+gap: 24px;
+
+}
+
+
 }
 
 
