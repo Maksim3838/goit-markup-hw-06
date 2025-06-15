@@ -956,7 +956,19 @@ fill: #2e2f42;
 gap: 24px;
 
 }
- 
+ .features-item {
+width: calc((100% - 24px) / 2);
+ }
+.features-item-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+
        /* feat-section */
  .feat-section {
   padding-top: 96px;
@@ -1000,7 +1012,10 @@ width: 264px;
 background: #fff;
 
  }
-
+.feat-section-tu {
+  flex-wrap: wrap;
+  display: flex;
+}
 
 
        /* ourportfolio */
