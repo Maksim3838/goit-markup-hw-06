@@ -1010,7 +1010,7 @@ text-align: center;
 color: #434455;
 padding-top: 8px;
 padding-bottom: 8px;
-width: 264px;
+
 }
 
 .feat-li {
@@ -1095,7 +1095,17 @@ max-width: 1440px;
   text-align: center;
 
 }
-
+.features-item-tet {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: #434455;
+padding-top: 8px;
+padding-bottom: 8px;
+width: 264px;
+}
 
 
 .features-title {
