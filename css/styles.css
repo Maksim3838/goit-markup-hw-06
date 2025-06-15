@@ -951,15 +951,22 @@ gap: 24px;
 }
  
        /* feat-section */
+       .feat-section {
+        display: flex;
+       }
 .feat-li {
    width: calc((100% - 24px) / 2);
-  
+  width: 100%;
  }
-
- }
-.feat-section-tu {
- display: flex;
+.feat-section .container {
+  display: block;
 }
+.feat-section-tu {
+  display: flex;
+}
+ 
+  
+
        /* ourportfolio */
 
 
