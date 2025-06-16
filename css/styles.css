@@ -161,7 +161,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people.jpg);
+    url(../images/hero\ mobil-min.jpg);
 color: #ffffff;
 text-align: center;
 letter-spacing: 0.02em;
@@ -971,7 +971,11 @@ fill: #2e2f42;
   }
              /* hero */
 .hero {
-  
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero\ plan-min.jpg);
 }
 .hero-title {
   font-weight: 700;
@@ -1107,6 +1111,13 @@ width: calc((100% - 24px) / 2);
 max-width: 1440px;
   }
          /* hero */
+.hero {background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people.jpg);}
+
+
 .hero-title {
   font-weight: 700;
 font-size: 56px;
