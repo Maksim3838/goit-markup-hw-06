@@ -1108,10 +1108,14 @@ max-width: 1440px;
   }
          /* hero */
 .hero-title {
+  font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 max-width: 496px;
-  margin: 0 auto 48px;
+  margin: 0 auto;
+  letter-spacing: 0.02em;
+text-align: center;
+
 }
 .main-btn-button {
    background-color: #4d5ae5;
