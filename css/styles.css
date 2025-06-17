@@ -169,6 +169,17 @@ letter-spacing: 0.02em;
 	margin: 0 auto;
   margin-bottom: 96px;
   }
+ 
+  @media screen and (min-resolution: 2x) {
+.hero {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero\ mob-2x-min.jpg);
+}
+    
+  }
 
   .hero-title {
   font-weight: 700;
@@ -977,6 +988,16 @@ fill: #2e2f42;
     ),
     url(../images/hero\ plan-min.jpg);
 }
+ @media screen and (min-resolution: 2x) {
+.hero {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/plann-2x-min.jpg);
+}
+    
+  }
 .hero-title {
   font-weight: 700;
 font-size: 56px;
@@ -1116,6 +1137,17 @@ max-width: 1440px;
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people.jpg);}
+
+     @media screen and (min-resolution: 2x) {
+.hero {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/desc-2x-min.jpg);
+}
+    
+  }
 
 
 .hero-title {
