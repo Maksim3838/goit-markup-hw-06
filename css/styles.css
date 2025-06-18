@@ -162,6 +162,14 @@ top: 0;
 z-index: 1;
 }
 .header-cloce-menu {
+display: block;
+margin-left: 272px;
+margin-top: 20px;
+margin-right: 20px;
+border-radius: 100%;
+fill: #e7e9fc;
+stroke-width: 1px;
+stroke: #2e2f42;
 
 }
      .header-cloce-menu-nev {
@@ -171,14 +179,35 @@ z-index: 1;
 
 }
 .header-menu-list-nev {
+  width: 151px;
+height: 200px;
+margin-top: 24px;
+margin-left: 16px;
 
 }
-.nav-link-current-nev {
+.nav-link-current-studio {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #404bbf;
 
 }
-   .nav-link {
-
-   }            
+   .nav-link-current-portfolio {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #2e2f42;
+   }   
+   
+   .nav-link-current-contacts {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #2e2f42;
+   }
 .address-nev {
 
 }
