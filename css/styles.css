@@ -218,7 +218,7 @@ color: #2e2f42;
 
 }
 
-.header-add-list {
+.header-nev-list {
 
 }
 .address-link-info {
@@ -227,7 +227,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #4d5ae5;
-
+padding-bottom: 24px;
+padding-left: 16px;
 }
 .address-link-nev {
 font-weight: 500;
@@ -235,10 +236,19 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
+padding-top: 24px;
+padding-left: 16px;
+padding-bottom: 24px;
 }
 
-.nev-icons {
-
+.nev-iconss {
+   display: flex;
+    gap: 40px; 
+    list-style: none;
+     padding: 16px;
+     margin: 0;
+     align-items: center;
+fill: #4d5ae5;;
 }
 
 .icons-nev {
@@ -250,6 +260,7 @@ color: #434455;
 }
 
 .icons-svg-nev {
+
 
 }
 
