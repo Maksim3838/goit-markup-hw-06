@@ -151,15 +151,63 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
+               /* nev */
+
+.mob-menu {
+
+}
+     .header-cloce-menu-nev {
+
+     }          
+.header-navigation-nev {
+
+}
+.header-menu-list-nev {
+
+}
+.nav-link-current-nev {
+
+}
+   .nav-link {
+
+   }            
+.address-nev {
+
+}
+
+.header-add-list {
+
+}
+
+.address-link-nev {
+
+}
+
+.nev-icons {
+
+}
+
+.icons-nev {
+
+}
+
+.icons-foot-nev {
+
+}
+
+.icons-svg-nev {
+
+}
+
+
+/* section 2 */
+
 
 .main-section {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
 }
-
-             /* section 2 */
-
   .hero .container {
   display: block; 
   text-align: center;
