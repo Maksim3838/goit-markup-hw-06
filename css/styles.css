@@ -695,8 +695,8 @@ margin-top: 96px;
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  margin-right: 120px;
-  
+  /* margin-right: 120px; */
+   margin-left: 102px;
 }
 
 .logo-footer-logo .logo-part {
@@ -711,14 +711,23 @@ margin-top: 96px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+   margin: 0 auto;
+}
+.features-ivop {
+  margin-top: 72px;
+  margin-bottom: 72px;
 }
 
+.features-item-ter {
+  padding-left: 112px;
+}
 
 
 
 .footer-icons {
   display: flex;
   gap: 16px;
+  padding: 56px;
 }
 
 .icons-footer {
@@ -1036,9 +1045,7 @@ fill: #2e2f42;
 
 
 
-.footer-subscribe {
-  margin-left: 80px;
-}
+
 
 .footer-form {
   display: flex;
@@ -1054,6 +1061,9 @@ fill: #2e2f42;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+padding-bottom: 16px;
+ padding-left: 122px;
+ 
 }
 .footer-input {
   border: 1px solid #fff;
@@ -1551,6 +1561,12 @@ width: 264px;
 
 .container-ter {
   margin-right: 120px;
+}
+.logo-footer-logo {
+  margin-right: 120px;
+}
+.footer-subscribe {
+  margin-left: 80px;
 }
 
 }
