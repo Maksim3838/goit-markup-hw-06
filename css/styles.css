@@ -678,10 +678,10 @@ line-height: 1.5;
 
    padding-top: 96px;
   padding-bottom: 96px;
-  width: 320px;
-height: 664px;
+  /* width: 320px;
+height: 664px; */
 margin-bottom: 0;
-margin-top: 96px;
+
    
 }
 
@@ -727,7 +727,8 @@ margin-top: 96px;
 .footer-icons {
   display: flex;
   gap: 16px;
-  padding: 56px;
+  /* padding: 56px; */
+  padding-left: 56px;
 }
 
 .icons-footer {
@@ -770,9 +771,13 @@ margin-top: 96px;
 }
 
 .footer-form {
-  display: flex;
+  /* display: flex;
   margin-left: auto;
-  gap: 24px;
+  gap: 24px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .footer-text-subscribe {
@@ -801,6 +806,11 @@ padding-bottom: 16px;
   outline: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.footer-form-label {
+  flex-wrap: wrap;
+}
+
+
 
 .footer-input::placeholder {
   color: #fff;
@@ -836,7 +846,7 @@ padding-bottom: 16px;
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+   margin-bottom: 96px;
   
 }
 .footer-frame {
@@ -1286,7 +1296,191 @@ width: calc((100% - 24px) / 2);
 
          /* footer */
 
+         
+.page-footer {
+  background-color: #2e2f42;
+ 
+   padding-top: 96px;
+  padding-bottom: 96px;
 
+margin-bottom: 0;
+
+   
+}
+
+.logo-footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+  
+   margin-left: 102px;
+}
+
+.logo-footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-pqw {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+   margin: 0 auto;
+}
+.features-ivop {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.features-item-ter {
+  padding-left: 112px;
+}
+
+
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+  padding-left: 56px;
+}
+
+.icons-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.icons-svg {
+  fill: #f4f4fd;
+}
+
+.icons-foot:hover,
+.icons-foot:focus {
+  background-color: #31d0aa;
+}
+
+.icons-foot {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icons-foot {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-text-subscribe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+padding-bottom: 16px;
+ padding-left: 122px;
+ 
+}
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: transparent;
+  outline: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-form-label {
+  flex-wrap: wrap;
+}
+
+
+
+.footer-input::placeholder {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+}
+.footer-input:hover,
+.footer-input:focus {
+  border-color: #4d5ae5;
+}
+.footer-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-top: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  color: #fff;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   margin-bottom: 96px;
+  
+}
+.footer-frame {
+  fill: #fff;
+  margin-left: 16px;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #404bbf;
+}
+.container-ter {
+  width: 264px;
+height: 112px;
+margin-top: 98px;
+margin-left: 108;
+margin-right: 24px;
+margin-bottom: 72px;
+}
 
 }
 
