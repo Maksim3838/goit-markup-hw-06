@@ -1315,13 +1315,16 @@ margin-bottom: 0;
    gap: 24px;
    align-items: center; 
    padding-left: 96px;
+   width: 453px;
+
 }
 .flax-cont {
    display: flex;
   flex-direction: row; 
    gap: 16px;
+   margin-left:0;
 }
-
+ 
 .logo-footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -1406,7 +1409,7 @@ margin-bottom: 0;
   letter-spacing: 0.02em;
   color: #fff;
 padding-bottom: 16px;
- padding-left: 122px;
+ padding-left: 108px;
  padding-top: 72px;
 }
 .footer-input {
@@ -1425,6 +1428,7 @@ padding-bottom: 16px;
 }
 .footer-form-label {
   flex-wrap: wrap;
+  padding-left: 108px;
 }
 
 
