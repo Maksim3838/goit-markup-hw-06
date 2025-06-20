@@ -1308,6 +1308,11 @@ margin-bottom: 0;
    
 }
 
+.page-footer, .container {
+  width: 768px;
+background: #2e2f42;
+}
+
 .logo-footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -1335,6 +1340,8 @@ margin-bottom: 0;
   color: #f4f4fd;
   max-width: 264px;
    margin: 0 auto;
+   margin-left: 102px;
+   margin-top: 16px;
 }
 .features-ivop {
   margin-top: 72px;
@@ -1474,13 +1481,17 @@ padding-bottom: 16px;
   background-color: #404bbf;
 }
 .container-ter {
-  width: 264px;
-height: 112px;
+  /* width: 264px; */
+ /* height: 112px;
 margin-top: 98px;
 margin-left: 108;
-margin-right: 24px;
-margin-bottom: 72px;
-}
+margin-right: 24px; */
+ margin-bottom: 72px; 
+ display: block;
+ margin-left: 108px;
+ margin-top: 96px;
+ margin-right: 24px;
+} 
 
 }
 
