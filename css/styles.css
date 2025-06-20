@@ -1305,8 +1305,8 @@ width: calc((100% - 24px) / 2);
 margin-bottom: 0;  
 }
 
-.page-footer, .container {
-  width: 768px;
+/* .page-footer, .container {
+  width: 768px; */
 }
 
 .flex-container {
@@ -1527,7 +1527,7 @@ padding-right: 15px;
 }
 
 .container {
-  max-width: 320px;
+ 
   width: 100%;
   padding-left: 16px;
   padding-right: 16px;
