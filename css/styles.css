@@ -1150,7 +1150,7 @@ fill: #2e2f42;
 
 
 @media screen and (min-width:768px) {
- .container {
+.container {
     max-width:768px;
     padding-left: 16px;
     padding-right: 16px;
@@ -1177,7 +1177,6 @@ fill: #2e2f42;
     ),
     url(../images/plann-2x-min.jpg);
 }
-    
   }
 .hero-title {
   font-weight: 700;
@@ -1334,7 +1333,7 @@ margin-bottom: 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
+  display: inline-block;}
  
 
 .logo-footer-logo .logo-part {
@@ -1501,6 +1500,7 @@ margin-right: 24px; */
 
 }
  
+
 
 
 
