@@ -1787,9 +1787,14 @@ width: 264px;
   margin-left: 80px;
 }
 .page-footer {
- 
   
+ 
 }
-
+.page-footer-container {
+ display: flex;
+  flex-direction: row; 
+   gap: 24px;
+   align-items: center; 
+}
 
 }
