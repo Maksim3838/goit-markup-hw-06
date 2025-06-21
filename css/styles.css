@@ -713,6 +713,7 @@ margin-bottom: 0;
   color: #f4f4fd;
     }
 .features-ivop {
+  margin-top: 72px;
   margin-bottom: 72px;
 }
 
@@ -790,10 +791,10 @@ margin-bottom: 0;
  
 }
 .footer-input {
+  width: 288px;
+  height: 40px;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 36px;
-  height: 24px;
   padding-left: 16px;
   font-size: 12px;
   line-height: 2;
@@ -1148,7 +1149,7 @@ fill: #2e2f42;
     max-width:768px;
     padding-left: 16px;
     padding-right: 16px;
-    
+    padding: 108px;
   }
 
                 /* header */
@@ -1308,8 +1309,7 @@ margin-bottom: 0;
   flex-direction: row; 
    gap: 24px;
    align-items: center; 
-   
-   
+   margin-bottom: 72px;
 
 }
 .flax-cont {
@@ -1400,6 +1400,7 @@ margin-bottom: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: left;
 }
 .footer-form {
   flex-direction: row;
@@ -1500,8 +1501,13 @@ margin-right: 24px; */
 @media screen and (min-width:1158px) {
   .container {
 max-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
+width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  align-items: baseline;
+display: flex;
+
   }
 
                /* header */
@@ -1516,14 +1522,6 @@ padding-right: 15px;
   align-items: center;
 }
 
-.container {
- 
-  width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0 auto;
-  align-items: baseline;
-}
 
 .header-navigation {
   display: flex;
@@ -1766,11 +1764,9 @@ width: 264px;
 .container-ter {
   margin: 0;
   padding: 0;
+  width: 264px;
 }
-.logo-footer-logo {
-   margin: 0;
-  padding: 0;
-}
+
 .footer-subscribe {
    margin: 0;
   padding: 0;
@@ -1789,10 +1785,7 @@ width: 264px;
   padding: 0;
 
 }
-.container {
-   margin: 0;
-  padding: 0;
-}
+
 .flex-container {
    margin: 0;
   padding: 0;
@@ -1802,8 +1795,9 @@ width: 264px;
   padding: 0;
 }
 .features-ivop {
-   margin: 0;
-  padding: 0;
+  padding-left: 120px;
+  padding-right: 80px;
+  margin: 0;
 
 }
 
@@ -1817,13 +1811,11 @@ width: 264px;
   padding: 0;
 }
 .footer-subscribe {
- margin: 0;
-  padding: 0;
+
 
 }
 .footer-text-subscribe {
-  margin: 0;
-  padding: 0;
+ 
 }
 .footer-form {
    margin: 0;
