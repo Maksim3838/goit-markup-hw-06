@@ -1314,8 +1314,7 @@ margin-bottom: 0;
   flex-direction: row; 
    gap: 24px;
    align-items: center; 
-   padding-left: 96px;
-   width: 453px;
+   
 
 }
 .flax-cont {
@@ -1353,8 +1352,7 @@ margin-bottom: 0;
    margin-top: 16px;
 }
 .features-ivop {
-  margin-top: 72px;
-  margin-bottom: 72px;
+ 
 }
 
 .features-item-ter {
@@ -1412,6 +1410,10 @@ padding-bottom: 16px;
  padding-left: 108px;
  padding-top: 72px;
 }
+.footer-form {
+  flex-direction: row;
+}
+
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -1491,9 +1493,7 @@ padding-bottom: 16px;
 margin-top: 98px;
 margin-left: 108;
 margin-right: 24px; */
- margin-bottom: 72px; 
  display: block;
- margin-left: 108px;
  margin-top: 96px;
  margin-right: 24px;
 } 
