@@ -1356,16 +1356,18 @@ margin-bottom: 0;
 }
 
 .features-item-ter {
-  padding-left: 112px;
-  padding-top: 96px;
+  padding-left: 24px;
+ 
 }
 
-
+.features-ivop {
+  margin-top: 96px;
+}
 
 .footer-icons {
   display: flex;
   gap: 16px;
-  padding-left: 56px;
+  padding-left: 24px;
 }
 
 .icons-footer {
