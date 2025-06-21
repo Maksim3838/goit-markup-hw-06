@@ -1149,7 +1149,7 @@ fill: #2e2f42;
 
 
 @media screen and (min-width:768px) {
-  .container {
+ .container {
     max-width:768px;
     padding-left: 16px;
     padding-right: 16px;
@@ -1307,7 +1307,7 @@ margin-bottom: 0;
 
 /* .page-footer, .container {
   width: 768px; */
-}
+
 
 .flex-container {
   display: flex;
@@ -1499,6 +1499,7 @@ margin-right: 24px; */
 } 
 
 }
+ 
 
 
 
