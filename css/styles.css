@@ -142,6 +142,7 @@ img {
   margin-left: auto;
   padding: 0;
   
+  
 }
 
 .address-link:hover,
@@ -1596,6 +1597,7 @@ max-width: 1158px;
   font-style: normal;
   margin-left: auto;
   display: block;
+  /* padding-right: 156px; */
 }
 
 .header-add-list {
