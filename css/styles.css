@@ -499,7 +499,7 @@ margin-bottom: 16px;
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
       /* feat-section */
@@ -1796,8 +1796,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 color: #434455;
-padding-top: 8px;
-padding-bottom: 8px;
 width: 264px;
 }
 
