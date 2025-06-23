@@ -1369,11 +1369,10 @@ height: 300px;
 }
 .portfolio-lid {
 width: calc((100% - 24px) / 2);
-
 }
 .portfolio-text {
-  gap: 24px;
-  row-gap: 72px;
+  column-gap: 24px;
+display: flex;
 }
 
          /* footer */
