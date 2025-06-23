@@ -212,6 +212,7 @@ margin-bottom: 24px;
 .header-navigation-nev {
 margin-bottom: auto;
 
+
 }
 .header-menu-list-nev :not(:last-child) {
   margin-bottom: 40px;
@@ -246,7 +247,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
    }
 .address-nev {
-
+margin:  auto;
 }
 
 .header-nev-list {
