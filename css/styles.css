@@ -1676,7 +1676,9 @@ max-width: 1158px;
 }
 
 .header-add-list {
-  display: flex;
+  /* display: flex;
+  gap: 40px; */
+  flex-direction: row;
   gap: 40px;
 }
 
