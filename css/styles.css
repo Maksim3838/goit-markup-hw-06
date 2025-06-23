@@ -713,7 +713,9 @@ line-height: 1.5;
 }
 
    /* footer */
-   
+.flex-container {
+ 
+}
  
 
 .page-footer {
@@ -758,7 +760,7 @@ margin-bottom: 0;
   color: #f4f4fd;
     }
 .features-ivop {
- 
+  margin-bottom: 72px;
 }
 
 .features-item-ter {
@@ -800,6 +802,7 @@ margin-bottom: 0;
 
 .container-ter {
   /* margin-right: 120px; */
+  margin-bottom: 72px;
 }
 
 .icons-foot {
