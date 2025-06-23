@@ -1339,7 +1339,7 @@ color: #434455;
   flex-wrap: wrap;
   display: flex;
   width: 100%;
-
+justify-content: center;
 }
 
 
@@ -1819,10 +1819,12 @@ width: 264px;
 .feat-section-tu {
   display: flex;
   gap: 24px;
+  flex-wrap: nowrap;
 }
 .feat-li {
   width: calc((100% - 72px) / 4);
   padding: 0;
+  margin-bottom: 0;
 }
         /* ourportfolio */
 .main-ourportfolio {
