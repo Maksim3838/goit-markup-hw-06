@@ -1602,16 +1602,23 @@ margin-right: 24px; */
                      /* /////---backdrop---////// */
 
     .modal {
-        width: 408px;
-        min-height: 584px;
+  width: 408px;
+  min-height: 584px;
     }
 
+.model-title {
+ width: 408px;
+ text-align: start;
+ 
+}
 
-
-
+.modal-form {
+ width: 408px;
 
 }
- 
+
+}
+
 
 
 
