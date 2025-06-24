@@ -1208,8 +1208,9 @@ fill: #2e2f42;
 }
 
 
+.user-name-text {
 
-
+}
 
 
 
@@ -1615,6 +1616,12 @@ margin-right: 24px; */
 .modal-form {
  width: 360px;
 }
+
+.user-name-text {
+  
+}
+
+
 
 }
 
